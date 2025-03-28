@@ -1,0 +1,35 @@
+name: speatance # Updated app name
+description: A Flutter app that uses speech-to-text, text-to-speech, and Hugging Face API for AI conversations.
+
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjust based on your Flutter SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.3.0 # For speech-to-text functionality
+  flutter_tts: ^3.6.3    # For text-to-speech functionality
+  http: ^1.1.0           # Updated to a newer version of the http package
+  cupertino_icons: ^1.0.2 # Default Flutter icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # For linting and code quality
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Add any assets (e.g., images, sounds) here
+    # - assets/images/
+
+  # Optional: Add fonts if needed
+  # fonts:
+  #   - family: MyCustomFont
+  #     fonts:
+  #       - asset: assets/fonts/MyCustomFont-Regular.ttf
